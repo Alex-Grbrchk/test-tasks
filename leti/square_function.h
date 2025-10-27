@@ -12,8 +12,7 @@ private:
 
 public:
     SquareFunction();
-    SquareFunction(double a, double b, double c);
-
+    
     void setCoefficients(double new_a, double new_b, double new_c);
     double calculate(double x);
     void printFunction();
